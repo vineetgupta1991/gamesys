@@ -3,7 +3,6 @@ package com.gamesys.jdbc;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 public class JDBCConnection {
 
@@ -14,6 +13,6 @@ public class JDBCConnection {
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("org.h2.Driver");
 
-        return DriverManager.getConnection(DB_URL,USER,PASS);
+        return DriverManager.getConnection(DB_URL, USER, PASS);
     }
 }

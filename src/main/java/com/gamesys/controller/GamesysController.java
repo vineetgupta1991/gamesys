@@ -18,7 +18,7 @@ public class GamesysController {
     @Autowired
     private GamesysService gamesysService;
 
-    @GetMapping(value="/news", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/news", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<NewsFeed> getNewsFeed() throws SQLException {
         return gamesysService.getNewsFeed();
     }

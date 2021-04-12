@@ -49,7 +49,7 @@ public class ScheduledTasks {
         });
 
 
-       int[] count = preparedStatement.executeBatch();
+        int[] count = preparedStatement.executeBatch();
         connection.commit();
     }
 }

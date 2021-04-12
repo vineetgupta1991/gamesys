@@ -11,11 +11,9 @@ This is a spring boot application with in memory database *H2*. I am using JDBC 
 - Lombok
 - Docker
 
-
 ## How to run the project
 
 Following steps illustrate procedures you need to follow to run the code :
-
 
 `Step 1` : Build the project using gradle
 
@@ -25,11 +23,10 @@ $ ./gradlew clean build
 
 `Step 2` : Run the Spring Boot Application or run the Docker compose (<b>docker-compose up</b>)
 
-
 ## Functionality
 
-After running the project, the scheduler will run and start fetching the information from rss feed on a continuous basis.
-You can see the entries in the table for yourself. Navigate to `http://localhost:8081/h2-console` .
+After running the project, the scheduler will run and start fetching the information from rss feed on a continuous
+basis. You can see the entries in the table for yourself. Navigate to `http://localhost:8081/h2-console` .
 
 **Make sure**  that you use `jdbc:h2:~/rss_feed` as JDBC URL. Click connect.
 
