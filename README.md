@@ -25,10 +25,10 @@ $ ./gradlew clean build
 
 `Step 2` : Run the Spring Boot Application or run the Docker compose (<b>docker-compose up</b>)
 
-* This will run the scheduler which will start fetching the information from rss feed.
 
 ## Functionality
 
+After running the project, the scheduler will run and start fetching the information from rss feed on a continuous basis.
 You can see the entries in the table for yourself. Navigate to `http://localhost:8081/h2-console` .
 
 **Make sure**  that you use `jdbc:h2:~/rss_feed` as JDBC URL. Click connect.
