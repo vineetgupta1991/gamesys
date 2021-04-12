@@ -29,8 +29,6 @@ $ ./gradlew clean build
 
 ## Functionality
 
-Since project uses *H2* in-memory database, some sample data has already been provided to get started with.
-
 You can see the entries in the table for yourself. Navigate to `http://localhost:8081/h2-console` .
 
 **Make sure**  that you use `jdbc:h2:~/rss_feed` as JDBC URL. Click connect.
