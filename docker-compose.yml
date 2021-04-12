@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  gamesys:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gamesys:0.0.1-SNAPSHOT
+    ports:
+      - 8080:8081
