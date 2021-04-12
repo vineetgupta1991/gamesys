@@ -1,0 +1,25 @@
+rss-feed:
+  api: http://rss.cnn.com/rss
+
+server:
+  port: 8081
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: BASIC
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:~/rss_feed
