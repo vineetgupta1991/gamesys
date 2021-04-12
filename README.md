@@ -38,5 +38,5 @@ select * from RSS_FEED;
 
 Press `ctrl+enter`.
 
-Now, I think you are all set up. You can access the all the JSON on browser http://localhost:8081/v1/gamesys/news
+Now, I think you are all set up. You can access all the JSON on browser http://localhost:8081/v1/gamesys/news
 
